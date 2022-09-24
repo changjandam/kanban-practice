@@ -19,7 +19,7 @@ const Popover: React.FC<PopoverProps> = ({
     <MuiPopover open={open} anchorEl={anchorEl}>
       <Box>
         <Typography>{title}</Typography>
-        <ButtonBase disableRipple onClick={() => setOpen(false)}>
+        <ButtonBase onClick={() => setOpen(false)}>
           <IoCloseOutline />
         </ButtonBase>
       </Box>

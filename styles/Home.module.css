@@ -3,9 +3,8 @@
 }
 
 .main {
-  min-height: 100vh;
+  padding: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 10px;
-  flex-wrap: wrap;
 }

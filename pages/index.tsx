@@ -1,3 +1,4 @@
+import { Box, Button } from '@mui/material';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
@@ -12,7 +13,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-
+        <Box>
+          <Button variant='contained'>test</Button>
+        </Box>
       </main>
     </div>
   );
